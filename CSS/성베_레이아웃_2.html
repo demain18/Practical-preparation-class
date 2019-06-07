@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Holy_grail_layout_20170720</title>
+	<style>
+        body {margin: 0%;}
+		.container {
+			display: flex;
+			flex-direction: column;
+		}
+		header { 
+			border-bottom: 1px solid brown;
+			padding-left: 20px;
+            background-color: brown;
+		}
+		footer {
+			border-top: 1px solid gray;
+			padding: 20px;
+			text-align: center;
+		}
+		.content {
+			display: flex;
+		}
+		.content nav {
+			border-right: 1px solid gray;
+		}
+		.content main {
+			flex-grow: 1;
+            flex-basis: 500px;
+		}
+		nav {
+			flex-basis: 230px;
+            width: 230px;
+		}
+		nav,main{
+			padding: 10px;
+		}
+        main>p {
+            margin-top: 50px;
+        }
+	</style>
+</head> 
+<body>
+	<div class="container">
+		<header> 
+			<h1>Demain's blog</h1>	
+		</header>
+		
+		<section class="content"> 
+		
+			<nav>
+				<ul>
+					<li>이름 : Myouongjoon kim</li>
+					<li>나이 : 18</li>
+					<li>출생지 : seoul, korea</li>
+				</ul>
+			</nav>
+			<main>
+			    <h2>Invite this wallpaper!</h2>
+			    <p>wallpaper-1</p>
+			    <img src="http://hdwarena.com/wp-content/uploads/2017/04/Beautiful-Wallpaper.jpg" alt="" width="800px">
+			    
+			    <p>wallpaper-2</p>
+			    <img src="http://allsizewallpapers.files.wordpress.com/2012/08/moutain-lion-retina-wallpaper-lake-1920x1080.jpg" alt="" width="800px">
+			    
+			    <p>wallpaper-3</p>
+			    <img src="http://getwallpapers.com/wallpaper/full/a/6/c/576481.jpg" alt="" width="800px">
+			</main>
+			
+		</section>
+		
+		<footer>
+			<a>mail : xxxxx@lorem.com</a>
+		</footer>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+

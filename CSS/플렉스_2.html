@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex_1_basic_20170718</title>
+	<style>
+		.container{
+			background-color: powderblue;
+			height:200px;
+			display: flex;
+
+		}
+		.item{
+			background-color: tomato;
+			color:white;
+			border: 1px solid white;
+			flex-basis: 30px;
+		}
+		.item:nth-child(2){
+			flex-basis: 150px;
+		}
+		.item:nth-child(1){
+			flex-shrink: 2;
+			flex-basis: 150px;
+			flex-grow: 2;
+		} 
+	</style>
+</head>
+<body>
+	<div class="container">  
+			<div class="item">1</div>
+			<div class="item">2</div>
+			<div class="item">3</div>
+			<div class="item">4</div>
+			<div class="item">5</div>
+	</div>
+</body>
+</html>

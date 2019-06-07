@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>relative_vs_static_20170717</title>
+ 	<style>
+ 	html{
+ 		border: 1px solid gray;	
+ 	}
+ 	div{
+ 		border: 5px solid tomato;
+ 		margin: 10px;
+ 	}
+ 	#me{
+ 		position: relative, static; /* 포지션 속성 */
+ 		/* 처리순서 left>right top>bottom */
+ 		left: 100px;
+ 		right: 100px;
+ 		top: 100px;
+ 		bottom: 100px;
+ 	}
+ 	</style>
+ </head>
+ <body>
+ 	<div id="other">other</div>
+ 	<div id="parent">parent
+ 		<div id="me">me</div>
+ 	</div> 	
+ </body>
+ </html>

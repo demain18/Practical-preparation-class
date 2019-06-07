@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Holy_grail_layout_20170720</title>
+	<style> 
+		.container{
+			display: flex;
+			flex-direction: column;
+		}
+		header{
+			border-bottom: 1px solid gray;
+			padding-left: 20px;
+		}
+		footer{
+			border-top: 1px solid gray;
+			padding: 20px;
+			text-align: center;
+		}
+		.content{
+			display: flex;
+		}
+        @media (max-width: 500px){
+            header{
+                d
+            }
+            .content{
+                flex-direction: column;
+            }
+            .content nav{
+                border-right: none !important;
+                flex-basis: auto;
+                order: 1;
+            }
+            .content main{
+                order: 0;
+            }
+            .content aside{
+                border-left: none !important;
+                flex-basis: auto;
+                order: 2;
+            }
+        }
+		.content nav{
+			border-right: 1px solid gray;
+		}
+        .content main{
+			flex-grow: 1;
+            text-align: justify;
+		}
+		.content aside{
+			border-left: 1px solid gray;
+		}
+		nav,aside{
+			flex-basis: 150px;
+			flex-shrink: 0;
+		}
+		nav,main,aside{
+			padding: 10px; 
+		}  
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header> 
+			<h1>RedMel0n</h1>	
+		</header>
+		<section class="content"> 
+        <nav>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+				</ul>
+			</nav>
+        <main>
+Aliquam at tristique mi, sed luctus ligula. Donec augue magna, tempus et ultricies a, vestibulum ut nunc. Integer non suscipit purus, non finibus nibh. Etiam egestas suscipit dui ac egestas. Donec vitae mi quam. Phasellus id gravida augue, sit amet semper est. Quisque tempor mi a nibh ullamcorper hendrerit. Proin cursus mauris enim, ut posuere ante ullamcorper vitae. Ut mollis eros at tellus elementum hendrerit.
+
+Suspendisse ac ante id turpis volutpat dignissim. Duis magna lacus, lobortis fringilla nunc ut, vehicula iaculis nulla. Quisque gravida vel dolor a commodo. Sed sagittis laoreet ultricies. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur eu commodo dui. Sed sed libero non nibh vestibulum cursus sed id sem. Morbi purus tortor, fringilla mattis pulvinar sit amet, maximus et tortor.
+
+Nam tempus gravida porttitor. Etiam a risus at arcu iaculis tempus. In convallis convallis dignissim. Morbi vel mollis libero. Sed et libero diam. Donec auctor, lacus in dictum vulputate, sem neque sodales tellus, id vestibulum dui mauris a sem. Mauris nec urna velit.
+
+Duis ultricies aliquet ultrices. Nunc ornare ante sed arcu luctus malesuada. Aliquam sagittis velit quis cursus mattis. Sed elementum leo id felis venenatis scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras tristique luctus odio in tempor. Praesent sem nunc, faucibus sit amet leo in, iaculis ullamcorper est. Proin consequat turpis in dignissim vehicula. Ut arcu est, tristique sit amet blandit nec, feugiat rhoncus urna. Pellentesque sed ipsum dignissim, pharetra ante id, luctus sem. Maecenas accumsan arcu non pellentesque elementum. Fusce ut venenatis nisl. Suspendisse suscipit arcu non felis dignissim, non auctor turpis aliquet. Nam elementum leo vel sodales ullamcorper.
+
+
+</main>
+        <aside>
+				AD 
+			</aside>
+		</section>
+		<footer>
+			<a href="www.google.coc/ncr">mail : hbfs0825@naver.com</a>
+		</footer>
+	</div>
+</body>
+</html> 
